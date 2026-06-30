@@ -1,0 +1,36 @@
+print 11111;
+
+let i = 0;
+while (i < 100) {
+    i = i + 1;
+}
+
+print 22222;
+
+let j = 0;
+let evens = 0;
+while (j < 50) {
+    let half = j / 2;
+    let check = half * 2;
+    
+    if (check == j) {
+        evens = evens + 1;
+    } else {
+        evens = evens + 0;
+    }
+    
+    j = j + 1;
+}
+
+print 33333;
+
+let k = 0;
+while (k < 10) {
+    let m = 0;
+    while (m < 10) {
+        m = m + 1;
+    }
+    k = k + 1;
+}
+
+print 99999;
